@@ -1,5 +1,11 @@
-module gopkg.in/yaml.v2
+module github.com/essentialkaos/yaml/v2
 
-go 1.15
+go 1.23.8
 
-require gopkg.in/check.v1 v0.0.0-20161208181325-20d25e280405
+require github.com/essentialkaos/check v1.4.1
+
+require (
+	github.com/kr/pretty v0.3.1 // indirect
+	github.com/kr/text v0.2.0 // indirect
+	github.com/rogpeppe/go-internal v1.13.1 // indirect
+)

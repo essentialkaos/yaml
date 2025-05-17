@@ -1,8 +1,9 @@
 package yaml_test
 
 import (
-	. "gopkg.in/check.v1"
 	"testing"
+
+	. "github.com/essentialkaos/check"
 )
 
 func Test(t *testing.T) { TestingT(t) }

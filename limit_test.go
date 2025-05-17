@@ -4,8 +4,9 @@ import (
 	"strings"
 	"testing"
 
-	. "gopkg.in/check.v1"
-	"gopkg.in/yaml.v2"
+	. "github.com/essentialkaos/check"
+
+	"github.com/essentialkaos/yaml/v2"
 )
 
 var limitTests = []struct {
